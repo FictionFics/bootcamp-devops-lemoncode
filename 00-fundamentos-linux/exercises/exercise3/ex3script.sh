@@ -8,10 +8,10 @@ else
 fi
 
 # Guardar el texto en file1.txt
-echo "$texto" > ./../exercise1/dummy/file1.txt
+echo "$texto" > ../exercise1/foo/dummy/file1.txt
 
 # Volcar el contenido de file1.txt en file2.txt
-cat file1.txt > ./../exercise2/empty/file2.txt
+cat ../exercise1/foo/dummy/file1.txt > ../exercise2/foo/empty/file2.txt
 
 
 echo "Proceso completado."
